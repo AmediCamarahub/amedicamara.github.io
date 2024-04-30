@@ -1,0 +1,87 @@
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Share+Tech+Mono&display=swap');
+    
+		html, body {
+			height: 100%;
+		}
+		body {
+			background-image: url('background.png');
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7c7c7c+0,7c7c7c+50,7c7c7c+51,070405+100 */
+/*            background: radial-gradient(ellipse at center,  #7c7c7c 0%,#7c7c7c 50%,#7c7c7c 51%,#070405 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+
+		}
+		.calculator {
+			background-color: #363636;
+			width: 300px;
+			padding: 15px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			border-radius: 5px;
+			box-shadow: 0 6px 0 #a1a1a1, 0 8px 10px rgba(0, 0, 0, 0.75);
+
+		}
+
+		.result {
+			background-color: #cecfac;
+			color: #3b3b32
+			width: 90%;
+			text-align: right;
+			height: 50px;
+			line-height: 50px;
+			font-size: 35px;
+			padding-right: 10px;
+			overflow: hidden;
+			box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5), 
+			inset 0px 2px 0 #a1a1a1;
+
+		}
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+
+		ul li {
+			list-style: none;
+			background-color: #999;
+			padding: 10px;
+			width: 15%;
+			float: left;
+			color: lime;
+			margin: 5px;
+			cursor: pointer;
+			font-size: 20px;
+			border-radius: 5px;
+			box-shadow: 0 5px 0 #a5a5a5, inset 0 2px 0 #ccc;
+			font-family: Share Tech Mono, monospace;
+		}
+
+		ul li:active {
+			position: relative;
+			top: 5px;
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+
+		}
+
+		ul li:nth-child(16) {
+			height: 75px;
+			line-height: 75px;
+		}
+
+		ul li:last-child {
+			margin-top: -47px;
+			width:65%;
+		}
+
+		.signature {
+			color: lime;
+			font-size: 0.75rem;
+			text-align: right;
+			position: relative;
+			top: 4px;
+			right: 5px;
+			z-index: -1;
+			font-family: Share Tech Mono, monospace;
+		}
+

@@ -1,0 +1,26 @@
+body {
+			background-color: #000;
+			text-align: center;
+			background-image: url(profil.jpg);
+		}
+	
+
+.letter {
+			font-size: 100px;
+			font-family: 'robotica', cursive;
+			display: inline-block;
+			color: #008080;
+			transition: all 250ms ease-in-out;
+		}
+
+.letter.active {
+			transform: scale(1.5) rotate(15deg); 
+			color: limegreen;
+			text-shadow: 10px 10px 10px #008080;
+		}
+
+.letter.active2 {
+			transform: rotate(20deg) scale(1.5);
+			color: limegreen;
+			text-shadow: 10px 10px 10px #008080;
+		}
